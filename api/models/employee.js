@@ -29,22 +29,22 @@ const employeesSchema = new mongoose.Schema({
 
     salary: {
         type: Number,
-        require: true
+        required: true
     },
 
     activeEmployee: {
         type:Boolean,
-        require: true
+        required: true
     },
 
     phoneNumber: {
         type: String,
-        require: true
+        required: true
     },
 
     address: {
         type: String,
-        require: true
+        required: true
     },
 
     createAt: {
